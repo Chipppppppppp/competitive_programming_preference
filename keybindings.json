@@ -8,7 +8,7 @@
         "command": "explorer.newFolder"
     },
     {
-        "key": "alt+shift+enter",
+        "key": "alt+enter",
         "command": "extension.multiCommand.execute",
         "args": {
             "sequence": [
@@ -21,7 +21,7 @@
                 }
             ]
         },
-        "when": "workspaceFolder == ~/competitive_programming && resourceExtname == .py"
+        "when": "config.workspaceKeybindings.competitive_programming.enabled && resourceExtname == .py"
     },
     {
         "key": "alt+enter",
@@ -37,7 +37,7 @@
                 }
             ]
         },
-        "when": "workspaceFolder == ~/competitive_programming && resourceExtname == .cpp"
+        "when": "config.workspaceKeybindings.competitive_programming.enabled && resourceExtname == .cpp"
     },
     {
         "key": "alt+backspace",
@@ -53,6 +53,6 @@
                 }
             ]
         },
-        "when": "workspaceFolder == ~/competitive_programming && (resourceExtname == .py || resourceExtname == .cpp)"
+        "when": "config.workspaceKeybindings.competitive_programming.enabled && (resourceExtname == .py || resourceExtname == .cpp)"
     }
 ]
