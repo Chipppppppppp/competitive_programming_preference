@@ -30,8 +30,8 @@ C++ の場合、コンパイルエラーの時は `work/output.txt` にエラー
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/b15afcdf-715f-4a84-831b-ae5fc3ee6fbc" />
 
-# 備忘録 - VSCode 拡張機能
+# 備忘録 - おすすめ VSCode 拡張機能
 
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): ファイルアイコン
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): インデントのカラーリング
+- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces): 不要なスペースを可視化
