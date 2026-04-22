@@ -30,6 +30,8 @@ C++ の場合、コンパイルエラーの時は `work/output.txt` にエラー
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/b15afcdf-715f-4a84-831b-ae5fc3ee6fbc" />
 
+<br>
+
 また、以下を実行することで `all.hpp.gch` を作成しコンパイル時間を短縮するのもよいでしょう。
 
 ```bash
