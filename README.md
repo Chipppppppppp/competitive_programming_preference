@@ -24,7 +24,7 @@
 
 入出力は `work/input.txt`, `work/output.txt`, `work/error.txt` に表示されます。
 
-C++ の場合、コンパイルエラーの時は `work/output.txt` にエラー内容が表示されます。また、`work/bundled.cpp` のバンドル結果をコピペして提出します。バンドル時のエラーは `work/bundle_error.txt` に表示されます。
+C++ の場合、コンパイルエラーの時は `work/output.txt` にエラー内容が表示されるようになっています。`work/compile_error.txt` でコンパイル時の警告を確認することもできます。提出時はバンドル済みの `work/bundled.cpp` をコピペして使用します。バンドル時のエラーは `work/bundle_error.txt` に表示されます。
 
 コード、バンドル結果、入力、出力を以下のように分割して表示すると便利です。
 
