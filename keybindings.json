@@ -1,4 +1,3 @@
-// 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
     {
         "key": "alt+n",
@@ -17,7 +16,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "pypy3 ${file} < ~/competitive_programming/work/input.txt > ~/competitive_programming/work/output.txt 2> ~/competitive_programming/work/error.txt\n"
+                        "text": "cd ${workspaceFolder} && pypy3 ${file} < work/input.txt > work/output.txt 2> work/error.txt\n"
                     }
                 }
             ]
@@ -33,7 +32,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "oj-bundle -I/usr/include -I/root/competitive_programming/ac-library -I/root/competitive_programming/kyopro ${file} > ~/competitive_programming/work/bundled.cpp 2> ~/competitive_programming/work/bundle_error.txt & > ~/competitive_programming/work/error.txt && g++ -std=gnu++20 -O2 -Wall -Wextra -mtune=native -march=native -fconstexpr-depth=2147483647 -fconstexpr-loop-limit=2147483647 -fconstexpr-ops-limit=2147483647 -Igmpxx -Igmp -I/usr/include -I/root/competitive_programming/ac-library -I/root/competitive_programming/kyopro -o ~/competitive_programming/work/a.out ${file} 2> ~/competitive_programming/work/output.txt && time ~/competitive_programming/work/a.out < ~/competitive_programming/work/input.txt > ~/competitive_programming/work/output.txt 2> ~/competitive_programming/work/error.txt\n"
+                        "text": "cd ${workspaceFolder} && oj-bundle -Iac-library -Ikyopro ${file} > work/bundled.cpp 2> work/bundle_error.txt & > work/error.txt && g++ -std=gnu++23 -O2 -Wall -Wextra -mtune=native -march=native -Iac-library -Ikyopro -o work/a.out ${file} 2> work/output.txt && time work/a.out < work/input.txt > work/output.txt 2> work/error.txt\n"
                     }
                 }
             ]
@@ -49,7 +48,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "cp ~/competitive_programming/template/template${fileExtname} ${file}\n"
+                        "text": "cd ${workspaceFolder} && cp template/template${fileExtname} ${file}\n"
                     }
                 }
             ]
