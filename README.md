@@ -6,11 +6,13 @@
 
 1. [online-judge-tools](https://github.com/online-judge-tools/oj) をインストール
 2. VSCode 拡張機能に [multi-command](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command) をインストール
-3. `competitive_programming` フォルダを作成 (フォルダ名は任意)
-4. フォルダ下に [ac-library](https://github.com/atcoder/ac-library), [kyopro](https://github.com/Chipppppppppp/kyopro) をインストール
-5. フォルダ下に `template`, `work` フォルダをダウンロード
-6. フォルダ下に `code/main.cpp`, `code/main.py` を作成 (フォルダ、ファイル名は任意)
-7. `.vscode/c_cpp_properties.json` (C/C++ 拡張機能の設定), `.vscode/settings.json` (ワークスペースの設定), `keybindings.json` (キーボードショートカット), `cpp.json` (スニペット) の内容をコピペ
+3. `competitive_programming` フォルダを作成、以下これをワークスペースとする (フォルダ名は任意)
+5. ワークスペース下に [ac-library](https://github.com/atcoder/ac-library), [kyopro](https://github.com/Chipppppppppp/kyopro) をインストール
+6. ワークスペース下に `template` フォルダをダウンロード
+7. ワークスペース下に `work` フォルダを作成
+8. ワークスペース下に `code` フォルダを作成し、`code/main.cpp`, `code/main.py` の二つのファイルを作成 (フォルダ名、ファイル名は任意)
+9. `.vscode/c_cpp_properties.json` (C/C++ 拡張機能の設定), `.vscode/settings.json` (ワークスペースの設定), `keybindings.json` (キーボードショートカット), `cpp.json` (スニペット) の内容をコピペ
+10. ワークスペースを VSCode で開き、分割してファイルを表示するなどして環境を整える
 
 # 仕様
 
