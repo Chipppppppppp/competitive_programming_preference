@@ -28,7 +28,7 @@ C++ の場合、コンパイルエラーの時は `work/output.txt` にエラー
 
 コード、バンドル結果、入力、出力を以下のように分割して表示すると便利です。
 
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/b15afcdf-715f-4a84-831b-ae5fc3ee6fbc" />
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/8a95d3e9-b85d-452f-9fe1-c423661ec3cf" />
 
 <br>
 
