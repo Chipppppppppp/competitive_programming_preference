@@ -32,7 +32,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "cd ${workspaceFolder} && oj-bundle -Iac-library -Ikyopro ${file} > work/bundled.cpp 2> work/bundle_error.txt & > work/error.txt && g++ -std=gnu++23 -O2 -Wall -Wextra -mtune=native -march=native -Iac-library -Ikyopro -o work/a.out ${file} 2> >(tee work/output.txt > work/compile_error.txt) && time work/a.out < work/input.txt > work/output.txt 2> work/error.txt\n"
+                        "text": "cd ${workspaceFolder} && { oj-bundle -Iac-library -Ikyopro ${file} > work/bundled.cpp 2> work/bundle_error.txt & > work/error.txt && g++ -std=gnu++23 -O2 -Wall -Wextra -mtune=native -march=native -Iac-library -Ikyopro -o work/a.out ${file} 2> >(tee work/output.txt > work/compile_error.txt) && time work/a.out < work/input.txt > work/output.txt 2> work/error.txt & wait; }\n"
                     }
                 }
             ]
